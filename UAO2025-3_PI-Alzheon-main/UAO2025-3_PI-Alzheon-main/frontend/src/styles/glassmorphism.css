@@ -1,0 +1,101 @@
+:root {
+  --glass-primary: rgba(255, 255, 255, 0.18);
+  --glass-secondary: rgba(255, 255, 255, 0.25);
+  --glass-border: rgba(255, 255, 255, 0.35);
+  --glass-highlight: rgba(255, 255, 255, 0.65);
+  --patient-blue: #3B9CFF;
+  --patient-gold: #E8C39E;
+  --patient-brown: #5C4636;
+  --patient-bg-dark: rgba(10, 18, 32, 0.85);
+}
+
+.patient-gradient-bg {
+  background-image:
+    linear-gradient(130deg, rgba(15, 25, 45, 0.8), rgba(27, 39, 62, 0.7), rgba(10, 18, 32, 0.85)),
+    url('/background.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.glass-panel {
+  background: var(--glass-primary);
+  backdrop-filter: blur(22px);
+  -webkit-backdrop-filter: blur(22px);
+  border: 1px solid var(--glass-border);
+  border-radius: 30px;
+  box-shadow: 0 25px 45px rgba(0, 0, 0, 0.25);
+}
+
+.glass-card {
+  background: var(--glass-secondary);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 26px;
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2);
+}
+
+.glass-button {
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.35), rgba(255, 255, 255, 0.15));
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.glass-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 15px 35px rgba(59, 156, 255, 0.25);
+}
+
+.patient-section-title {
+  font-size: 1.1rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--patient-gold);
+}
+
+.patient-scroll {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(255, 255, 255, 0.4) transparent;
+}
+
+.patient-scroll::-webkit-scrollbar {
+  height: 6px;
+  width: 8px;
+}
+
+.patient-scroll::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.patient-scroll::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.4);
+  border-radius: 9999px;
+}
+
+.recording-pulse {
+  position: relative;
+}
+
+.recording-pulse::after {
+  content: '';
+  position: absolute;
+  inset: -6px;
+  border-radius: 9999px;
+  border: 2px solid rgba(255, 80, 80, 0.4);
+  animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(0.95);
+    opacity: 0.8;
+  }
+  70% {
+    transform: scale(1.2);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(0.95);
+    opacity: 0;
+  }
+}

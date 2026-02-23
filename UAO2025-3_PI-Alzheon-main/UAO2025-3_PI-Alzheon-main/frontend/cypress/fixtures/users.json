@@ -1,0 +1,46 @@
+{
+  "users": {
+    "medico": {
+      "nombre": "Dr. Juan Médico Test",
+      "email": "medico@test.com",
+      "password": "Test1234!",
+      "rol": "medico"
+    },
+    "cuidador": {
+      "nombre": "María Cuidadora Test",
+      "email": "cuidador@test.com",
+      "password": "Test1234!",
+      "rol": "cuidador/familiar"
+    },
+    "paciente": {
+      "nombre": "Pedro Paciente Test",
+      "email": "paciente@test.com",
+      "password": "Test1234!",
+      "rol": "paciente"
+    }
+  },
+  "photos": [
+    {
+      "etiqueta": "Familia en la playa",
+      "descripcion": "Vacaciones de verano 2023"
+    },
+    {
+      "etiqueta": "Cumpleaños de mamá",
+      "descripcion": "Celebración especial"
+    },
+    {
+      "etiqueta": "Mi mascota",
+      "descripcion": "Mi perro Max"
+    }
+  ],
+  "recordings": [
+    {
+      "descripcionTexto": "Esta foto me recuerda cuando fuimos a la playa con toda la familia.",
+      "tipoContenido": "texto"
+    },
+    {
+      "descripcionTexto": "Recuerdo perfectamente el día del cumpleaños de mi mamá.",
+      "tipoContenido": "texto"
+    }
+  ]
+}
