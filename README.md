@@ -1,6 +1,28 @@
 # Alzheon
 
 Sistema de monitoreo y análisis cognitivo para pacientes con Alzheimer. Permite a pacientes, cuidadores y médicos colaborar en el seguimiento de la evolución cognitiva mediante grabaciones de voz, análisis con IA y gestión de fotos.
+Se desarrolló una nueva funcionalidad de evaluación de orientación temporal y espacial, diseñada como un apoyo adicional a las métricas cognitivas ya existentes en el sistema. Esta mejora permite valorar el nivel de reconocimiento del paciente respecto al entorno y 
+al tiempo mediante preguntas sencillas como:
+¿Qué día es hoy?
+¿En qué mes del año estamos?
+¿En qué ciudad vive?
+¿Dónde se encuentra actualmente?
+
+### Objetivos de la funcionalidad
+
+- Apoyar la medición de la progresión cognitiva del paciente.
+- Reducir la ansiedad causada por episodios de desorientación.
+- Mantener la autonomía del usuario mediante evaluaciones simples.
+- Permitir la identificación temprana de deterioro en áreas de orientación.
+- Generar información útil para cuidadores y médicos.
+
+### Uso dentro del sistema
+
+La evaluación de orientación temporal y espacial se integra al módulo de análisis cognitivo y funciona como una métrica complementaria para el seguimiento del estado del paciente.
+Los resultados de las evaluaciones pueden contribuir a:
+- Monitoreo longitudinal del desempeño cognitivo.
+- Detección de posibles cambios en la orientación del usuario.
+- Apoyo en decisiones de cuidado y tratamiento.
 
 ## Inicialización del Proyecto
 
