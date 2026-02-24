@@ -3,10 +3,10 @@
 Sistema de monitoreo y análisis cognitivo para pacientes con Alzheimer. Permite a pacientes, cuidadores y médicos colaborar en el seguimiento de la evolución cognitiva mediante grabaciones de voz, análisis con IA y gestión de fotos.
 Se desarrolló una nueva funcionalidad de evaluación de orientación temporal y espacial, diseñada como un apoyo adicional a las métricas cognitivas ya existentes en el sistema. Esta mejora permite valorar el nivel de reconocimiento del paciente respecto al entorno y 
 al tiempo mediante preguntas sencillas como:
-¿Qué día es hoy?
-¿En qué mes del año estamos?
-¿En qué ciudad vive?
-¿Dónde se encuentra actualmente?
+- ¿Qué día es hoy?
+- ¿En qué mes del año estamos?
+- ¿En qué ciudad vive?
+- ¿Dónde se encuentra actualmente?
 
 ### Objetivos de la funcionalidad
 
